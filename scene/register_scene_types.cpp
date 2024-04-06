@@ -274,6 +274,7 @@
 #include "scene/3d/physics/spring_arm_3d.h"
 #include "scene/3d/physics/static_body_3d.h"
 #include "scene/3d/physics/vehicle_body_3d.h"
+#include "prs_volumes_3d.h"
 #include "scene/3d/reflection_probe.h"
 #include "scene/3d/remote_transform_3d.h"
 #include "scene/3d/skeleton_3d.h"
@@ -600,6 +601,7 @@ void register_scene_types() {
 	GDREGISTER_CLASS(KinematicCollision3D);
 	GDREGISTER_CLASS(CharacterBody3D);
 	GDREGISTER_CLASS(SpringArm3D);
+	GDREGISTER_CLASS(PRS_Sphere);
 
 	GDREGISTER_CLASS(PhysicalBoneSimulator3D);
 	GDREGISTER_CLASS(PhysicalBone3D);
