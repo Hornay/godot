@@ -1,0 +1,7 @@
+# SCsub
+
+Import('env')
+
+src_list = {"*.cpp"}
+env.add_source_files(env.modules_sources, src_list)
+module_env.Append(CXXFLAGS=['-02'])
